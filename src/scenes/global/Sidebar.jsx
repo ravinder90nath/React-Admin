@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { tokens } from "../../theme";
 
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
+import PeopleOutlineOutlinedIcon from '@mui/icons-material/PeopleOutlineOutlined';
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
@@ -127,9 +127,9 @@ const Sidebar = () => {
                         setSelected={setSelected}
                     />
                     <Item
-                        title="Contacts Information"
-                        to="/contacts"
-                        icon={<ContactsOutlinedIcon />}
+                        title="Users"
+                        to="/users"
+                        icon={<PeopleOutlineOutlinedIcon />}
                         selected={selected}
                         setSelected={setSelected}
                     />    
